@@ -83,6 +83,28 @@
             color: #ffffff;
         }
 
+        /* ===== ABOUT ME ===== */
+        .about-box {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            line-height: 1.7;
+            text-align: center;
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+
+        body.dark .about-box {
+            background: #1e1e1e;
+        }
+
+        .about-box:hover {
+            box-shadow: 0 0 20px #00d1b2;
+            transform: translateY(-5px);
+        }
+
         /* ===== SKILLS ===== */
         .skills {
             display: flex;
@@ -208,6 +230,20 @@
         <h1>Vincent Angelo Abanes</h1>
         <p>IT Student | Web Portfolio</p>
     </header>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section>
+        <h2>About Me</h2>
+        <div class="about-box">
+            <p>
+                I am <strong>Vincent Angelo Abanes</strong>, an IT student with knowledge in basic
+                graphic design using Photoshop, MS Office applications, and computer hardware
+                troubleshooting. I enjoy learning new technologies, creating clean designs,
+                and solving technical problems. This portfolio showcases my skills and projects
+                as I continue to grow in the IT field.
+            </p>
+        </div>
+    </section>
 
     <!-- ===== SKILLS ===== -->
     <section>
